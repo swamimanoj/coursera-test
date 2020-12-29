@@ -1,0 +1,129 @@
+h1{
+	text-align: center;
+}
+
+@media (min-width: 992px){
+	.div1{
+		border: 1px solid black;
+		background: #AEB6BF;
+		width: 31%;
+		float:left;
+		margin: 10px;
+	}
+
+	.div2{
+		border: 1px solid black;
+		background: #AEB6BF;
+		float: left;
+		width: 31%;
+		margin: 10px;
+	}
+
+	.div3{
+		border: 1px solid black;
+		background: #AEB6BF;
+		float: left;
+		width: 31%;
+		margin: 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.div1{
+		border: 1px solid black;
+		background: #AEB6BF;
+		width: 47%;
+		float:left;
+		margin: 10px;
+	}
+
+	.div2{
+		border: 1px solid black;
+		background: #AEB6BF;
+		float: left;
+		width: 47%;
+		margin: 10px;
+	}
+
+	.div3{
+		border: 1px solid black;
+		background: #AEB6BF;
+		float: left;
+		width: 96%;
+		margin: 10px;
+	}
+}
+
+@media (max-width: 767px){
+	.div1{
+		border: 1px solid black;
+		background: #AEB6BF;
+		width: 97%;
+		float:left;
+		margin: 10px;
+	}
+
+	.div2{
+		border: 1px solid black;
+		background: #AEB6BF;
+		float: left;
+		width: 97%;
+		margin: 10px;
+	}
+
+	.div3{
+		border: 1px solid black;
+		background: #AEB6BF;
+		float: left;
+		width: 97%;
+		margin: 10px;
+	}
+}
+
+section{
+	position: relative;
+}
+
+span{
+	font-weight: bold;
+	width: 100px;
+	font-family: sans-serif;
+}
+
+.chicken{
+	border: 1px solid black;
+	border-top: none;
+	border-right: none;
+	background: pink;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.beef{
+	border: 1px solid black;
+	border-top: none;
+	border-right: none;
+	background: red;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.sushi{
+	border: 1px solid black;
+	border-top: none;
+	border-right: none;
+	background: yellow;
+	text-align: center;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+p{
+	margin-left: 10px;
+	margin-top: 25px;
+}
